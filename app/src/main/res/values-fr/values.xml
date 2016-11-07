@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Projet ESIEA</string>
+    <string name="HelloWorld">Bonjour le  monde !</string>
+    <string name="NewButton">Nouveau bouton</string>
+    <string name="settings">Réglages</string>
+    <string name="help">Aide</string>
+    <string name="TestToast">Test Toast</string>
+    <string name="TestAlert">Test Alerte</string>
+
+</resources>
