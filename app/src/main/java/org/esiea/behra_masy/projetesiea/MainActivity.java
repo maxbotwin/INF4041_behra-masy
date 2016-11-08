@@ -1,5 +1,6 @@
 package org.esiea.behra_masy.projetesiea;
 
+import android.content.Intent;
 import android.support.annotation.IdRes;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -36,11 +37,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-            if (item.getItemId() == R.id.menu_help){
-                Toast.makeText(getApplicationContext(), "test", Toast.LENGTH_LONG).show();
+        if (item.getItemId() == R.id.menu_help)
+            Toast.makeText(getApplicationContext(), "test", Toast.LENGTH_LONG).show();
 
-            }
-        return true;
+        if (item.getItemId() == R.id.menu_settings) {
+            Intent intent = new Intent(this, ChildActivity.class);
+            startActivity(intent);
+        }
+            return true;
     }
 
 
