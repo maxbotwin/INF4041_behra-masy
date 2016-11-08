@@ -19,11 +19,22 @@ public class MainActivity extends AppCompatActivity {
         final Context context = this;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final Button test_button = (Button) findViewById(R.id.button_de_test);
-        test_button.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
 
-                new AlertDialog.Builder(context).setMessage(R.string.HelloWorld).create().show();
+        final Button LastResult = (Button) findViewById(R.id.score);
+        final Button Players = (Button) findViewById(R.id.players);
+
+        // Creating listener for the two buttons of the homepage
+        LastResult.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                // Create the AlertDialog when the button is clicked.
+                new AlertDialog.Builder(context).setMessage(R.string.LastResult).create().show();
+            }
+        });
+
+        Players.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                //Intent intent = new Intent(this, PlayersActivity.class);
+                //startActivity(intent);
             }
         });
     }
