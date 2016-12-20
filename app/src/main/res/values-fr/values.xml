@@ -1,10 +1,25 @@
 <resources>
-    <string name="app_name">Projet ESIEA</string>
-    <string name="HelloWorld">Bonjour le  monde !</string>
-    <string name="NewButton">Nouveau bouton</string>
-    <string name="settings">Réglages</string>
-    <string name="help">Aide</string>
-    <string name="TestToast">Test Toast</string>
-    <string name="TestAlert">Test Alerte</string>
+    <string name="app_name">PSG</string>
+    <string name="Welcome">Bienvenue sur l\'application non officielle du PSG.</string>
+    <string name="ClickOnPlayer">Cliquez sur un joueur pour voir le détail.</string>
+    <string name="Number">Numéro :\u0020 </string>
+    <string name="Position">Poste: \u0020</string>
+    <string name="Nationality">Nationalité:\u0020 </string>
+    <string name="Age">Age: \u0020</string>
+    <string name="SearchPlayer">Rechercher le joueur sur Google</string>
+    <string name="url_prefix_recherche">https://www.google.fr/search?q=</string>
+    <string name="about">À propos</string>
+    <string name="about_content">
+        Cette application regroupe les 11 joueurs de l\'équipe type du PSG\n
+        \n
+        Application développée par :\n
+        Gaspard MASY (4A CFA)\n
+        Maxence BEHRA (4A CFA)\n
+        \n
+        Lien github : https://github.com/maxbotwin/INF4041_behra-masy
+    </string>
 
+    <string name="notification">Notification PSG</string>
+    <string name="notification_title">À propos</string>
+    <string name="notification_desc">Tout ce qu\'il faut savoir sur l\'application PSG</string>
 </resources>
